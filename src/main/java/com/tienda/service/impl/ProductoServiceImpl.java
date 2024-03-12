@@ -1,6 +1,6 @@
 package com.tienda.service.impl;
 
-import com.tienda.Dao.ProductoDao;
+import com.tienda.dao.ProductoDao;
 import com.tienda.domain.Producto;
 import com.tienda.service.ProductoService;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class ProductoServiceImpl implements ProductoService {
 
-    @Autowired
+     @Autowired
     private ProductoDao productoDao;
 
     @Override
@@ -41,5 +41,5 @@ public class ProductoServiceImpl implements ProductoService {
     public void delete(Producto producto) {
         productoDao.delete(producto);
     }
+    
 }
-
