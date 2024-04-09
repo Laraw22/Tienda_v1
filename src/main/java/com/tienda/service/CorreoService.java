@@ -9,4 +9,3 @@ public interface CorreoService {
             String contenidoHtml) 
             throws MessagingException;
 }
-

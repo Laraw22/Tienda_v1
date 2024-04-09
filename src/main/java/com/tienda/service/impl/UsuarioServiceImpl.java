@@ -1,9 +1,7 @@
-
 package com.tienda.service.impl;
 
-
-import com.tienda.Dao.RolDao;
-import com.tienda.Dao.UsuarioDao;
+import com.tienda.dao.RolDao;
+import com.tienda.dao.UsuarioDao;
 import com.tienda.domain.Rol;
 import com.tienda.domain.Usuario;
 import com.tienda.service.UsuarioService;
